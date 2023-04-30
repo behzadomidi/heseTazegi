@@ -1,0 +1,37 @@
+.sidebar {
+  width: 330px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  padding: 50px 0;
+  background: rgb(244, 244, 244);
+  top: 0;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sidebar-logo-mobile img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 44px;
+  height: 100px;
+}
+.sidebar-list {
+  padding-right: 44px;
+}
+.sidebar-list li {
+  display: flex;
+  padding-top: 20px;
+}
+.sidebar-list a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #404040;
+}
+.sidebar-list i {
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  top: 6px;
+}

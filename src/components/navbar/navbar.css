@@ -1,0 +1,122 @@
+.nav {
+  height: 80px;
+  padding: 40px 60px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(117, 117, 117, 0.3);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.container .nav-logo img {
+  height: 50px;
+  width: 50px;
+}
+.container .nav-logo-mobile img {
+  width: 100px;
+  height: 50px;
+  display: none;
+}
+.container .nav-search input {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 2px;
+  width: 500px;
+  height: 35px;
+  border-right: none;
+}
+.nav-search i {
+  position: relative;
+  top: 1px;
+  right: 9px;
+}
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.nav-button .btn-register {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid rgb(190, 190, 190);
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  padding-right: 13px;
+}
+.nav-button .btn-register i {
+  left: 9px;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+.nav-button .btn-subscription {
+  cursor: pointer;
+  width: 159px;
+  height: 40px;
+  background: #f69427;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.nav-search {
+  display: flex;
+  align-items: center;
+}
+.nav-search i {
+  padding-right: 4px;
+  font-size: 18px;
+}
+.nav-search button {
+  border: 1px solid rgb(218, 218, 218);
+  background: #fff;
+  border-radius: 1px;
+  border-left: none;
+  height: 35px;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 27px;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 925px) {
+  .nav {
+    height: 31px;
+    padding: 39px 5px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .btn-subscription {
+    display: none;
+  }
+  .nav-button .btn-register {
+    border: none;
+  }
+  .container .nav-logo img {
+    display: none;
+  }
+  .container .nav-logo-mobile img {
+    display: block;
+  }
+  .container .nav-search {
+    display: none;
+  }
+}

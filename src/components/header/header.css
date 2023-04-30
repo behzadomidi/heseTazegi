@@ -1,0 +1,30 @@
+.header .list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .list li {
+  margin: 30px 0;
+}
+.header .list li a {
+  padding: 17px;
+  color: #404040;
+  font-size: 12px;
+}
+.header .list .active {
+  padding: 15px;
+  color: #404040;
+  border-bottom: 2px solid #f69427;
+  font-size: 12px;
+}
+.list i {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+}
+
+@media screen and (max-width: 925px) {
+  .header {
+    display: none;
+  }
+}
